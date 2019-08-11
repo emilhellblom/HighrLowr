@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "jsx": "react-native",
+    // "lib": ["esnext"],
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "*",
+        "*.android",
+        "*.ios",
+        "../*",
+        "pages/*",
+        "assets/*",
+      ],
+      "src/*": [
+        "*"
+      ],
+    }
+  },
+  "exclude": ["node_modules"]
+}
